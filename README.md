@@ -3,10 +3,10 @@ FSharp.Dnx
 
 This project depends on [aspnet/dnx](github.com/aspnet/dnx)
 
-| branch  | aspnet/dnx version  |
-|---------|---------------------|
-| master  | latest development version ( now 1.0.0-rc2-* ) |
-| release | 1.0.0-rc1-final     |
+| branch  | aspnet/dnx version  | Windows | Linux |
+|---------|---------------------|---------|-------|
+| master  | latest development version ( now 1.0.0-rc2-* ) | |  [![Build Status](https://travis-ci.org/fsprojects/fsharp-dnx.png?branch=master)](https://travis-ci.org/fsprojects/fsharp-dnx/branches) |
+| release | 1.0.0-rc1-final     |  | [![Build Status](https://travis-ci.org/fsprojects/fsharp-dnx.png?branch=release)](https://travis-ci.org/fsprojects/fsharp-dnx/branches) |
 
 # Usage
 
