@@ -1,12 +1,21 @@
 language: csharp
+
 sudo: false
+
+os:
+  - linux
+  - osx
+
 mono:
   - 4.0.5
+
 addons:
   apt:
     packages:
     - zsh
+
 before_script:
   - chmod +x build.sh
+
 script:
   - ./build.sh verify
